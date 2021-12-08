@@ -32,7 +32,7 @@ const Technologies = () => (
           <ListParagraph>
             Experiece with <br />
             React.js,
-            <br /> Next.js, Tailwind Css
+            <br /> Next.js, Tailwind Css, Typescript
           </ListParagraph>
         </ListContainer>
       </ListItem>
