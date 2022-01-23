@@ -10,6 +10,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "Hulu 2.0",
+    description:
+      "This is a clone of the official Hulu website. The data is powered to us by the tmdb.org api, which provides us with upto date movies. Tailwind css and tailwind JIT were used to style the app, and css grid to display the movies according to screen size.",
+    image: "/images/hulu.png",
+    tags: ["Next js", "Tailwind css", "API's"],
+    source: "https://petershuluclone.netlify.app",
+    visit: "https://github.com/peterbeeshop/hulu-clone",
+    id: 1,
+  },
+  {
     title: "Node Js Authentication",
     description:
       "In this app, in order for you to access certain pages you need to be a logged in user otherwise you would be restricted from accessing those pages. (App takes 30secs for it to load due to my free hosting service. Kindly be patient with it)",
@@ -17,17 +27,17 @@ export const projects = [
     tags: ["Node Js", "Express", "MongoDb", "Heroku"],
     source: "https://jwt-authentication-app.herokuapp.com/",
     visit: "https://github.com/peterbeeshop/jwt-auth",
-    id: 1,
+    id: 2,
   },
   {
-    title: "Black-Jack Game",
+    title: "Black-Jack Game (For PC only)",
     description:
       "A Javascript game where you pick random cards between 1 to 11 for as long as you want but the total score of the cards picked should not be over 21. You get to play against a bot. The person that has the bigger score wins.. HIT randomly generates a card for you. STAND will randomly generate cards for the bot",
     image: "/images/blackjack.png",
     tags: ["Vanilla JavaScript"],
     source: "https://blackjackjsgame.netlify.app/",
     visit: "https://github.com/peterbeeshop/blackjack-game",
-    id: 2,
+    id: 3,
   },
   {
     title: "Landing Page",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["React", "Next Js", "Figma"],
     source: "https://landingpagebypeter.netlify.app/ ",
     visit: "https://github.com/peterbeeshop/laptopwebsite",
-    id: 3,
+    id: 4,
   },
 ];
 
