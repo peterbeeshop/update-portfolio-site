@@ -20,6 +20,16 @@ export const projects = [
     id: 1,
   },
   {
+    title: "Modern Landing Page",
+    description:
+      "A modern looking landing page from figma design to developement, using React js",
+    image: "/images/gpt3.png",
+    tags: ["React Js", "Tailwind css", "React Icons", "Figma"],
+    source: "https://modernlandingpage.netlify.app/",
+    visit: "https://github.com/peterbeeshop/GPT-3-landing-page",
+    id: 2,
+  },
+  {
     title: "Node Js Authentication",
     description:
       "In this app, in order for you to access certain pages you need to be a logged in user otherwise you would be restricted from accessing those pages. (App takes 30secs for it to load due to my free hosting service. Kindly be patient with it)",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["Node Js", "Express", "MongoDb", "Heroku"],
     source: "https://jwt-authentication-app.herokuapp.com/",
     visit: "https://github.com/peterbeeshop/jwt-auth",
-    id: 2,
+    id: 3,
   },
   {
     title: "Black-Jack Game (For PC only)",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["Vanilla JavaScript"],
     source: "https://blackjackjsgame.netlify.app/",
     visit: "https://github.com/peterbeeshop/blackjack-game",
-    id: 3,
+    id: 4,
   },
   {
     title: "Landing Page",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["React", "Next Js", "Figma"],
     source: "https://landingpagebypeter.netlify.app/ ",
     visit: "https://github.com/peterbeeshop/laptopwebsite",
-    id: 4,
+    id: 5,
   },
 ];
 
