@@ -30,9 +30,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js,
-            <br /> Next.js, Tailwind Css, Typescript
+            Experience with <br />
+            React.js, Next.js,
+            <br /> HTML/CSS, Typescript, Redux, Redux-toolkit
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,9 +44,9 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Express.js,
+            Node.js, Express.js, Ruby on Rails,
             <br />
-            MongoDb, GraphQl
+            MongoDb, PostgreSQL, GraphQl, AWS, Heroku
           </ListParagraph>
         </ListContainer>
       </ListItem>

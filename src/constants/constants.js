@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "Disney plus",
+    title: "Stock App",
     description:
-      "A Clone of the official Disney plus website. Built using React, with the help of functional components, styled-components, react-redux. Uses google authentication to authenticate the user, with the help of firebase.",
-    image: "/images/disneyplus.png",
-    tags: ["React", "Firebase", "React-Redux"],
-    source: "https://disneyplusclone-9c5fb.web.app/home",
-    visit: "https://github.com/peterbeeshop/disneyClone-app",
+      "A stock app that allows users to add a particular stock to their watchlist or portfolio, so that they can track it's performance overtime and see what their returns would be. I also integrated into the website a payment gateway (pay-pal) and implemented user authentication and authorization using JSON Web Tokens.",
+    image: "/images/stock-app.png",
+    tags: ["React", "Typescript", "Redux toolkit", "Express js", "Google OAuth", "React query", "SASS" ],
+    source: "https://wallstreetfinds.netlify.app/",
+    visit: "https://github.com/peterbeeshop/react-stock-app",
     id: 0,
   },
   {
@@ -30,6 +30,16 @@ export const projects = [
     id: 2,
   },
   {
+    title: "Disney plus",
+    description:
+      "A Clone of the official Disney plus website. Built using React, with the help of functional components, styled-components, react-redux. Uses google authentication to authenticate the user, with the help of firebase.",
+    image: "/images/disneyplus.png",
+    tags: ["React", "Firebase", "React-Redux"],
+    source: "https://disneyplusclone-9c5fb.web.app/home",
+    visit: "https://github.com/peterbeeshop/disneyClone-app",
+    id: 3,
+  },
+  {
     title: "Node Js Authentication",
     description:
       "In this app, in order for you to access certain pages you need to be a logged in user otherwise you would be restricted from accessing those pages. (App takes 30secs for it to load due to my free hosting service. Kindly be patient with it)",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["Node Js", "Express", "MongoDb", "Heroku"],
     source: "https://jwt-authentication-app.herokuapp.com/",
     visit: "https://github.com/peterbeeshop/jwt-auth",
-    id: 3,
+    id: 4,
   },
   {
     title: "Black-Jack Game (For PC only)",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["Vanilla JavaScript"],
     source: "https://blackjackjsgame.netlify.app/",
     visit: "https://github.com/peterbeeshop/blackjack-game",
-    id: 4,
+    id: 5,
   },
   {
     title: "Landing Page",
@@ -57,12 +67,12 @@ export const projects = [
     tags: ["React", "Next Js", "Figma"],
     source: "https://landingpagebypeter.netlify.app/ ",
     visit: "https://github.com/peterbeeshop/laptopwebsite",
-    id: 5,
+    id: 6,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2020, text: "Started my journey" },
-  { year: 2021, text: "Started Working as a freelance developer" },
-  { year: 2022, text: "Start contributing to open source projects" },
+  { year: 2020, text: "Worked as fullstack intern for a Nigerian company from March of 2020 - Dec 2020" },
+  { year: 2021, text: "Worked for Joyn Technologies, a canadian startup from Jan 2021 - Sep 2022" },
+  { year: 2022, text: "Started working for Ruta Health, a canadian startup from Sep 2022 - current " },
 ];
