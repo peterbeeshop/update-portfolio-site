@@ -43,14 +43,14 @@ const Header = () => (
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/peter-beeshop-0b5739204/"
+        href="https://www.linkedin.com/in/peter-muyambango"
         target="_blank"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      {/* <SocialIcons href="https://google.com">
         <AiFillInstagram size="3rem" />
-      </SocialIcons>
+      </SocialIcons> */}
     </Div3>
   </Container>
 );

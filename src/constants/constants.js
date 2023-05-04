@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Ruta Health",
+    description:
+      "A healthcare management system that connects patients to doctors. A patient can anonymously create a post about their health condition seeking help and the post is only visible to doctors, that can then leave a comment under the post giving their advice and tips regarding the health condition at hand. Ruta has over 3000 active users, and about 10 doctors to provide care and support. (Private repository)",
+    image: "/images/ruta.png",
+    tags: ["Ruby on Rails,", "AWS,", "Heroku,", "Tailwind,", "Postgres,", "Redis,", "SASS" ],
+    source: "https://www.rutahealth.com/",
+    id: 0,
+  },
+  {
     title: "Stock App",
     description:
       "A stock app that allows users to add a particular stock to their watchlist or portfolio, so that they can track it's performance overtime and see what their returns would be. I also integrated into the website a payment gateway (pay-pal) and implemented user authentication and authorization using JSON Web Tokens.",
@@ -7,7 +16,7 @@ export const projects = [
     tags: ["React", "Typescript", "Redux toolkit", "Express js", "Google OAuth", "React query", "SASS" ],
     source: "https://wallstreetfinds.netlify.app/",
     visit: "https://github.com/peterbeeshop/react-stock-app",
-    id: 0,
+    id: 1,
   },
   {
     title: "Hulu 2.0",
@@ -17,7 +26,7 @@ export const projects = [
     tags: ["Next js", "Tailwind css", "API's"],
     source: "https://petershuluclone.netlify.app",
     visit: "https://github.com/peterbeeshop/hulu-clone",
-    id: 1,
+    id: 2,
   },
   {
     title: "Modern Landing Page",
@@ -27,7 +36,7 @@ export const projects = [
     tags: ["React Js", "Tailwind css", "React Icons", "Figma"],
     source: "https://modernlandingpage.netlify.app/",
     visit: "https://github.com/peterbeeshop/GPT-3-landing-page",
-    id: 2,
+    id: 3,
   },
   {
     title: "Disney plus",
@@ -37,22 +46,22 @@ export const projects = [
     tags: ["React", "Firebase", "React-Redux"],
     source: "https://disneyplusclone-9c5fb.web.app/home",
     visit: "https://github.com/peterbeeshop/disneyClone-app",
-    id: 3,
-  },
-  {
-    title: "Node Js Authentication",
-    description:
-      "In this app, in order for you to access certain pages you need to be a logged in user otherwise you would be restricted from accessing those pages. (App takes 30secs for it to load due to my free hosting service. Kindly be patient with it)",
-    image: "/images/jwt.png",
-    tags: ["Node Js", "Express", "MongoDb", "Heroku"],
-    source: "https://jwt-authentication-app.herokuapp.com/",
-    visit: "https://github.com/peterbeeshop/jwt-auth",
     id: 4,
   },
+  // {
+  //   title: "Node Js Authentication",
+  //   description:
+  //     "In this app, in order for you to access certain pages you need to be a logged in user otherwise you would be restricted from accessing those pages. (App takes 30secs for it to load due to my free hosting service. Kindly be patient with it)",
+  //   image: "/images/jwt.png",
+  //   tags: ["Node Js", "Express", "MongoDb", "Heroku"],
+  //   source: "https://jwt-authentication-app.herokuapp.com/",
+  //   visit: "https://github.com/peterbeeshop/jwt-auth",
+  //   id: 5,
+  // },
   {
     title: "Black-Jack Game (For PC only)",
     description:
-      "A Javascript game where you pick random cards between 1 to 11 for as long as you want but the total score of the cards picked should not be over 21. You get to play against a bot. The person that has the bigger score wins.. HIT randomly generates a card for you. STAND will randomly generate cards for the bot",
+      "A Javascript game where you pick random cards between 1 to 11 for as long as you want but the total score of the cards picked should not be over 21. You get to play against a bot. The person that has the bigger score wins.. HIT randomly generates a card for you. STAND will randomly generate cards for the bot (This game was created over 3 years ago when I just started with coding)",
     image: "/images/blackjack.png",
     tags: ["Vanilla JavaScript"],
     source: "https://blackjackjsgame.netlify.app/",
