@@ -1,14 +1,5 @@
 export const projects = [
   {
-    title: "Ruta Health",
-    description:
-      "A healthcare management system that connects patients to doctors. A patient can anonymously create a post about their health condition seeking help and the post is only visible to doctors, that can then leave a comment under the post giving their advice and tips regarding the health condition at hand. Ruta has over 3000 active users, and about 10 doctors to provide care and support. (Private repository)",
-    image: "/images/ruta.png",
-    tags: ["Ruby on Rails,", "AWS,", "Heroku,", "Tailwind,", "Postgres,", "Redis,", "SASS" ],
-    source: "https://www.rutahealth.com/",
-    id: 0,
-  },
-  {
     title: "Stock App",
     description:
       "A stock app that allows users to add a particular stock to their watchlist or portfolio, so that they can track it's performance overtime and see what their returns would be. I also integrated into the website a payment gateway (pay-pal) and implemented user authentication and authorization using JSON Web Tokens.",
